@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FitBit Demo</string>
+    <string name="login">Login with FitBit</string>
+    <string name="str_fitbit_redirect_url" translatable="false">my-fitbit-app://my.fitbit.app/handle_auth</string>
+    <string name="str_fitbit_data_scope" translatable="false">activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight</string>
+    <string name="welcome">Welcome</string>
+    <string name="ftb_act">FitBit Activities</string>
+    <string name="ftb_login">FitBit Login</string>
+    <string name="err_internet">No Network Available</string>
+    <string name="distance">Distance:</string>
+    <string name="date">Date:</string>
+</resources>
