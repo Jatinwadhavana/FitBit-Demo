@@ -41,7 +41,11 @@ open class FitBitActViewModel : ViewModel() {
 
     private fun getHeader(): HashMap<String, String> {
         val header=HashMap<String, String>()
-        header["Authorization"] = "Bearer $fitBitUserAccess"
+        if(::fitBitUserAccess.isInitialized){
+            header["Authorization"] = "Bearer $fitBitUserAccess"
+            return header
+        }
+        header["Authorization"] = "Bearer "
         return header
     }
 
