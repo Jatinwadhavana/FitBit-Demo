@@ -1,15 +1,15 @@
-#FitBit Login integration and accessing activities data
+# FitBit Login integration and accessing activities data
  
-Prepared by Jatin Wadhawana
-Email jatin.wadhavana@gmail.com
+<b>Prepared by</b> Jatin Wadhawana<br>
+<b>Email</b> jatin.wadhavana@gmail.com
 
-#Points covered in this demo
+# Points covered in this FitBit Demo
 
-MVVM Architecture
-Data Binding
-Live Data
-Kotlin
-Retrofit
-FitBit APIs
-Pagination based on date
-Swipe refresh
+- MVVM Architecture<br>
+- Data Binding<br>
+- Live Data<br>
+- Kotlin<br>
+- Retrofit<br>
+- FitBit APIs<br>
+- Pagination based on date<br>
+- Swipe refresh<br>
