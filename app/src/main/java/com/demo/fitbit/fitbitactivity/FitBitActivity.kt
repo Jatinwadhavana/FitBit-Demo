@@ -86,6 +86,7 @@ class FitBitActivity : BaseActivity(), DatePickerDialog.OnDateSetListener {
                 fitBitActViewModel.mutableActivityListLiveData?.removeObserver(activitiesObserver)
                 fitBitActViewModel.mutableActivityListLiveData=null
                 fitBitActAdapter.activitiesList.clear()
+                fitBitActAdapter.notifyDataSetChanged()
                 callingActivityAPI("1m", getFormattedDate())
             }else{
                 Toast.makeText(this, getString(R.string.err_internet), Toast.LENGTH_LONG).show()
